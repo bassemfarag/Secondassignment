@@ -1,0 +1,14 @@
+.\main.o: main.c
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\main.o: .\FreeRTOS\inc\FreeRTOS.h
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\main.o: .\FreeRTOS\inc\projdefs.h
+.\main.o: .\FreeRTOSConfig.h
+.\main.o: .\FreeRTOS\inc\portable.h
+.\main.o: .\FreeRTOS\inc\portmacro.h
+.\main.o: .\FreeRTOS\inc\mpu_wrappers.h
+.\main.o: stm32f10x_conf.h
+.\main.o: .\STM32F10xFWLib\inc\stm32f10x_type.h
+.\main.o: .\FreeRTOS\inc\task.h
+.\main.o: .\FreeRTOS\inc\list.h
+.\main.o: setup.h
