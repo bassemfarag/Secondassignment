@@ -60,7 +60,7 @@ I (.\STM32F10xFWLib\inc\stm32f10x_type.h)(0x5814FDBD)
 I (.\STM32F10xFWLib\inc\cortexm3_macro.h)(0x5814FDBD)
 I (.\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x5814FDBD)
 F (.\STM32F10xFWLib\src\cortexm3_macro_rvds.s)(0x5814FDBD)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x--pd "__UVISION_VERSION SETA 520"--list .\cortexm3_macro_rvds.lst --xref -o .\cortexm3_macro_rvds.o --depend .\cortexm3_macro_rvds.d)
-F (.\main.c)(0x58165274)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\main.c)(0x5820EE62)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
 I (.\FreeRTOS\inc\FreeRTOS.h)(0x5814FDBE)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE973E)
@@ -74,6 +74,9 @@ I (.\STM32F10xFWLib\inc\stm32f10x_type.h)(0x5814FDBD)
 I (.\FreeRTOS\inc\task.h)(0x5814FDBE)
 I (.\FreeRTOS\inc\list.h)(0x5814FDBF)
 I (setup.h)(0x5814FDBA)
+I (.\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x5814FDBD)
+I (.\STM32F10xFWLib\inc\stm32f10x_map.h)(0x5814FDBE)
+I (.\STM32F10xFWLib\inc\cortexm3_macro.h)(0x5814FDBD)
 F (.\setup.c)(0x5814FDBB)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\setup.o --omf_browse .\setup.crf --depend .\setup.d)
 I (setup.h)(0x5814FDBA)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)

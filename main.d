@@ -12,3 +12,6 @@
 .\main.o: .\FreeRTOS\inc\task.h
 .\main.o: .\FreeRTOS\inc\list.h
 .\main.o: setup.h
+.\main.o: .\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\main.o: .\STM32F10xFWLib\inc\stm32f10x_map.h
+.\main.o: .\STM32F10xFWLib\inc\cortexm3_macro.h
