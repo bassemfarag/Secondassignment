@@ -1,5 +1,5 @@
 Dependencies for Project 'lab_env', Target 'Target 1': (DO NOT MODIFY !)
-F (.\STM32F10x.s)(0x5814FDBC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x--pd "__UVISION_VERSION SETA 520"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\STM32F10x.s)(0x582344F9)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x--pd "__UVISION_VERSION SETA 520"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
 F (.\STM32F10xFWLib\src\stm32f10x_gpio.c)(0x5814FDBD)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\stm32f10x_gpio.o --omf_browse .\stm32f10x_gpio.crf --depend .\stm32f10x_gpio.d)
 I (.\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x5814FDBD)
 I (.\STM32F10xFWLib\inc\stm32f10x_map.h)(0x5814FDBE)
@@ -45,7 +45,7 @@ I (.\STM32F10xFWLib\inc\stm32f10x_map.h)(0x5814FDBE)
 I (.\stm32f10x_conf.h)(0x5814FDBB)
 I (.\STM32F10xFWLib\inc\stm32f10x_type.h)(0x5814FDBD)
 I (.\STM32F10xFWLib\inc\cortexm3_macro.h)(0x5814FDBD)
-F (.\STM32F10xFWLib\src\stm32f10x_tim.c)(0x5814FDBD)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
+F (.\STM32F10xFWLib\src\stm32f10x_tim.c)(0x5823363B)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
 I (.\STM32F10xFWLib\inc\stm32f10x_tim.h)(0x5814FDBE)
 I (.\STM32F10xFWLib\inc\stm32f10x_map.h)(0x5814FDBE)
 I (.\stm32f10x_conf.h)(0x5814FDBB)
@@ -60,7 +60,7 @@ I (.\STM32F10xFWLib\inc\stm32f10x_type.h)(0x5814FDBD)
 I (.\STM32F10xFWLib\inc\cortexm3_macro.h)(0x5814FDBD)
 I (.\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x5814FDBD)
 F (.\STM32F10xFWLib\src\cortexm3_macro_rvds.s)(0x5814FDBD)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x--pd "__UVISION_VERSION SETA 520"--list .\cortexm3_macro_rvds.lst --xref -o .\cortexm3_macro_rvds.o --depend .\cortexm3_macro_rvds.d)
-F (.\main.c)(0x5820EE62)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\main.c)(0x582344A0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
 I (.\FreeRTOS\inc\FreeRTOS.h)(0x5814FDBE)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE973E)
@@ -73,10 +73,20 @@ I (stm32f10x_conf.h)(0x5814FDBB)
 I (.\STM32F10xFWLib\inc\stm32f10x_type.h)(0x5814FDBD)
 I (.\FreeRTOS\inc\task.h)(0x5814FDBE)
 I (.\FreeRTOS\inc\list.h)(0x5814FDBF)
+I (.\FreeRTOS\inc\semphr.h)(0x5814FDBE)
+I (.\FreeRTOS\inc\queue.h)(0x5814FDBE)
 I (setup.h)(0x5814FDBA)
-I (.\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x5814FDBD)
+I (.\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x5814FDBE)
 I (.\STM32F10xFWLib\inc\stm32f10x_map.h)(0x5814FDBE)
 I (.\STM32F10xFWLib\inc\cortexm3_macro.h)(0x5814FDBD)
+I (.\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x5814FDBE)
+I (.\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x5814FDBD)
+I (.\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x5814FDBD)
+I (.\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x5814FDBD)
+I (.\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x5814FDBE)
+I (.\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x5814FDBE)
+I (.\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x5814FDBD)
+I (.\STM32F10xFWLib\inc\stm32f10x_tim.h)(0x5814FDBE)
 F (.\setup.c)(0x5814FDBB)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I .\STM32F10xFWLib\inc -I .\FreeRTOS\inc -I .-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\?ST\STM32F10x-D__UVISION_VERSION="520" -DRVDS_ARMCM3_LM3S102-o .\setup.o --omf_browse .\setup.crf --depend .\setup.d)
 I (setup.h)(0x5814FDBA)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE973E)
